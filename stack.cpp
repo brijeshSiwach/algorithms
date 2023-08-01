@@ -6,9 +6,9 @@ class stack{
 
 private:
 	struct node{
-		int val;
+		T val;
 		node * next;
-		node (int x){
+		node (T x){
 			val = x;
 			next = nullptr;
 		}
