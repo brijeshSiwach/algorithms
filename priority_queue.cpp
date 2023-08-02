@@ -17,7 +17,7 @@ private:
 public:
     priority_queue (){
         p = 0;
-        arr = new int [max_size];
+        arr = new T [max_size];
     }
 
     void push(const T &e){
